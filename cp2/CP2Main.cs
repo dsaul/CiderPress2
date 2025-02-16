@@ -28,7 +28,7 @@ namespace cp2 {
     /// <summary>
     /// Command-line entry point.
     /// </summary>
-    static class CP2Main {
+    public static class CP2Main {
         public static readonly CommonUtil.Version APP_VERSION = GlobalAppVersion.AppVersion;
 
         private const string APP_NAME = "cp2";
@@ -52,7 +52,7 @@ namespace cp2 {
         /// <summary>
         /// Command definition.
         /// </summary>
-        private class Command {
+        public private class Command {
             public string[] Names { get; private set; }
             public string Summary { get; private set; }
             public string Usage { get; private set; }
@@ -273,7 +273,7 @@ namespace cp2 {
         /// <summary>
         /// OS entry point.
         /// </summary>
-        internal static void Main(string[] args) {
+        public static void Main(string[] args) {
             // Can use Environment.GetCommandLineArgs() to get command name in args[0] if desired.
 
             Environment.ExitCode = 2;       // use code 2 for usage problems
@@ -556,7 +556,7 @@ namespace cp2 {
         /// </remarks>
         /// <param name="cmd">Command being executed.</param>
         /// <param name="parms">Application parameters.</param>
-        private static void ProcessConfigFile(Command cmd, ParamsBag parms) {
+        public static void ProcessConfigFile(Command cmd, ParamsBag parms) {
             string[]? globalOpts = null;
             string[]? cmdOpts = null;
 

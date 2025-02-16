@@ -27,7 +27,7 @@ using static DiskArc.Defs;
 
 
 namespace cp2 {
-    internal static class SectorEdit {
+    public static class SectorEdit {
         #region Read Track
 
         /// <summary>

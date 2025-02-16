@@ -26,7 +26,7 @@ using DiskArc.Multi;
 using static DiskArc.Defs;
 
 namespace cp2 {
-    internal static class DiskUtil {
+    public static class DiskUtil {
         #region Create Disk Image
 
         /// <summary>
