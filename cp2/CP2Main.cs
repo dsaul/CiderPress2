@@ -52,7 +52,7 @@ namespace cp2 {
         /// <summary>
         /// Command definition.
         /// </summary>
-        public private class Command {
+        public class Command {
             public string[] Names { get; private set; }
             public string Summary { get; private set; }
             public string Usage { get; private set; }
