@@ -151,7 +151,7 @@ namespace cp2 {
         /// <summary>
         /// Prints the entry's attributes.
         /// </summary>
-        private static void PrintAttrs(IFileEntry entry, string attrName, ParamsBag parms) {
+        public static void PrintAttrs(IFileEntry entry, string attrName, ParamsBag parms) {
             const string LFMT = "  {0,-12}: ";
 
             if (attrName == string.Empty) {
