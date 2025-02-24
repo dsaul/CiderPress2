@@ -102,7 +102,7 @@ namespace cp2 {
         /// <param name="endDirEntry">Result: file entry for last component, if the last
         ///   component was a directory in a disk image; otherwise holds NO_ENTRY.</param>
         /// <returns>True on success.</returns>
-        internal static bool OpenExtArc(string extPath, bool isDirOkay, bool isReadOnly,
+        public static bool OpenExtArc(string extPath, bool isDirOkay, bool isReadOnly,
                 ParamsBag parms,
                 [NotNullWhen(true)] out DiskArcNode? rootNode,
                 [NotNullWhen(true)] out DiskArcNode? leafNode,
