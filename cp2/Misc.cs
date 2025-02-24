@@ -29,7 +29,7 @@ namespace cp2 {
     /// <summary>
     /// Miscellaneous helper functions.
     /// </summary>
-    internal static class Misc {
+    public static class Misc {
         /// <summary>
         /// Finds the relevant filesystem in a disk image or partition object.
         /// </summary>
