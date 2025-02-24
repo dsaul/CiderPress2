@@ -26,7 +26,7 @@ using AttrID = AppCommon.SetAttrWorker.AttrID;
 using AttrEdit = AppCommon.SetAttrWorker.AttrEdit;
 
 namespace cp2 {
-    internal static class FileAttr {
+    public static class FileAttr {
         /// <summary>
         /// Handles the "get-attr" command.
         /// </summary>
